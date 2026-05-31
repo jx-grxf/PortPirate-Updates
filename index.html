@@ -3,10 +3,69 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PortPirate Updates</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #0d1117;
+    color: #f0f6fc;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  main {
+    width: min(720px, calc(100vw - 48px));
+  }
+
+  h1 {
+    margin: 0 0 12px;
+    font-size: clamp(2rem, 5vw, 4rem);
+    line-height: 1;
+  }
+
+  p {
+    margin: 0 0 28px;
+    max-width: 56ch;
+    color: #8b949e;
+    font-size: 1.08rem;
+    line-height: 1.6;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  a {
+    color: #f0f6fc;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 10px 14px;
+    text-decoration: none;
+    background: #161b22;
+  }
+
+  a:hover {
+    border-color: #58a6ff;
+  }
+</style>
 <body>
   <main>
     <h1>PortPirate Updates</h1>
-    <p>This host serves signed Sparkle update feeds and release artifacts for PortPirate.</p>
+    <p>Signed Sparkle update feeds and public release artifacts for PortPirate. Authenticity is verified by the app before an update is installed.</p>
+    <nav aria-label="Update links">
+      <a href="/appcast.xml">Stable appcast</a>
+      <a href="/beta/appcast.xml">Beta appcast</a>
+      <a href="/releases/">Releases</a>
+      <a href="/release-notes/">Release notes</a>
+      <a href="https://github.com/jx-grxf/PortPirate-Updates">GitHub repo</a>
+    </nav>
   </main>
 </body>
 </html>
