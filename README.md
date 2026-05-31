@@ -1,5 +1,10 @@
 # PortPirate Updates
 
+[![GitHub Pages](https://img.shields.io/badge/pages-updates.johannesgrof.me-2ea44f)](https://updates.johannesgrof.me)
+[![Sparkle](https://img.shields.io/badge/updates-Sparkle%20appcast-0a7cff)](https://sparkle-project.org/)
+[![Repository](https://img.shields.io/badge/repo-public%20artifacts-6e7681)](https://github.com/jx-grxf/PortPirate-Updates)
+[![HTTPS](https://img.shields.io/badge/https-enforced-2ea44f)](https://updates.johannesgrof.me)
+
 Public signed Sparkle update feed and release artifacts for PortPirate.
 
 [updates.johannesgrof.me](https://updates.johannesgrof.me/) serves the files in this repository through GitHub Pages.
